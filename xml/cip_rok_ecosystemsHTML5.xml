@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eco_data title="South Korea" subtitle="Ecosystems" subtitleX="124" subtitleY="13" countryX="269"
+    countryY="142">
+    <instructions title="Instructions">
+        <content>Learn about the ecosystems of South Korea.<br/><br/>Select an ecosystem from the map by
+            clicking on it. Then explore the flora and fauna in the picture to learn
+            more about them.</content>
+    </instructions> 
+
+    /*1*/ 
+
+    <region id="ecoRegion1" label="Mountain Forests"
+        labelWidthBox="200" xpos="367" ypos="38" path="images/ecosystems/scene01_bg.png"
+        isTextOutside="true">
+        <description>This rugged terrain occupies 70% of the nation. Although the mountains are not generally high, they can be extremely steep.</description>
+        <inhabitant id="1a" orientation="right" xpos="70" ypos="1" width="111" height="140">
+            <label>Manchurian Walnut <i>(Juglans mandshurica)</i></label>
+            <description>This hardy tree produces a nut with an edible kernel. The roots are used as a folk medicine to treat cancer.</description>
+        </inhabitant>
+       
+        <inhabitant id="1b" orientation="left" xpos="430" ypos="20" width="210" height="280">
+            <label>Korean Ash <i>(Fraxinus rhynchophylla)</i></label>
+            <description>Wood products are made from the hardwood of this tree. The bark is used in folk medicine to treat diarrhea and painful, swollen eyes.</description>
+        </inhabitant>
+        
+        <inhabitant id="1c" orientation="right" xpos="1" ypos="130" width="250" height="175">
+            <label>Brown Bear <i>(Ursus arctos)</i></label>
+            <description>These large bears generally avoid humans but may attack if surprised or threatened.</description>
+        </inhabitant>
+        
+        <inhabitant id="1d" orientation="right" xpos="220" ypos="267" width="70" height="48">
+            <label>Oriental Firebelly Toad <i>(Bombina orientalis)</i></label>
+            <description>The toxins secreted through the toad’s skin are not usually dangerous to humans but can cause discomfort if ingested or absorbed through cuts.</description>
+        </inhabitant>
+        
+        <inhabitant id="1e" orientation="left" xpos="436" ypos="246" width="100" height="78">
+            <label>Korean Rat Snake <i>(Elaphe schrenckii)</i></label>
+            <description>This is the largest indigenous snake on the Korean Peninsula. Although it is protected in South Korea, it is often killed for pharmaceutical use.</description>
+        </inhabitant>
+        
+        <inhabitant id="1f" orientation="right" xpos="24" ypos="15" width="50" height="112">
+            <label>White-Bellied Black Woodpecker <i>(Dryocopus javensis richardsi)</i></label>
+            <description>This native bird has been designated as Natural Monument No. 197 in Korea, meaning it is granted special government protection.</description>
+        </inhabitant>
+        
+        <inhabitant id="1g" orientation="right" xpos="150" ypos="100" width="240" height="175">
+            <label>Hackberry <i>(Prunus padas)</i></label>
+            <description>This bitter seed contains cyanide, which in small quantities stimulates respiration. Mixtures made from the bark are used to treat colds and sore throats.</description>
+        </inhabitant>
+    </region> 
+
+
+/*2*/ <region id="ecoRegion2" label="Hills and Valleys" labelWidthBox="200" xpos="69"
+        ypos="105" path="images/ecosystems/scene02_bg.png" isTextOutside="false">
+    <description>Long cold winters with temperatures below freezing give way to monsoons during the summer.</description>
+        <inhabitant id="2a" orientation="left" xpos="295" ypos="75" width="158" height="178">
+            <label>Asian Black Bear <i>(Ursus thibetanus)</i></label>
+            <description>Called the moon bear, this white-chested species can be aggressive. It is categorized as Vulnerable because of habitat loss and hunting for gall bladders and skins.</description>
+        </inhabitant>
+        <inhabitant id="2b" orientation="right" xpos="110" ypos="240" width="100" height="50">
+            <label>Central Asian Pit Viper <i>(Gloydius Intermedius)</i></label>
+            <description>Measuring up to 76 cm (30 in), this snake’s bite releases a venom that attacks the nervous and cardiovascular systems.</description>
+        </inhabitant>
+        <inhabitant id="2c" orientation="left" xpos="412" ypos="215" width="190" height="90">
+            <label>Chinese Egret <i>(Egretta eluphotes</i></label>
+            <description>Classified as Vulnerable, this bird lives along shallow tidal estuaries and mudflats. It is highly valued for its beautiful plumage.</description>
+        </inhabitant>
+        <inhabitant id="2d" orientation="right" xpos="6" ypos="58" width="109" height="186">
+            <label>Chinese Goral <i>(Naemorhedus caudatus)</i></label>
+            <description>Resembling a goat, this animal is now listed as Vulnerable. It lives in herds in high mountain ranges and has few natural predators.</description>
+        </inhabitant>
+        <inhabitant id="2e" orientation="right" xpos="8" ypos="260" width="90" height="60">
+            <label>Chinese Softshell Turtle <i>(Pelodiscus sinensis)</i></label>
+            <description>Listed as Vulnerable, the meat of this turtle is a common soup ingredient.</description>
+        </inhabitant>
+        <inhabitant id="2f" orientation="right" xpos="109" ypos="0" width="96" height="204">
+            <label>Korean Pine <i>(Pinus koraiensis)</i></label>
+            <description>This large tree grows in the mountain areas, and its seeds are harvested and sold as pine nuts.</description>
+        </inhabitant>
+        <inhabitant id="2g" orientation="right" xpos="185" ypos="150" width="124" height="70">
+            <label>Maidenhair Fern <i>(Adiantum pedatum)</i></label>
+            <description>Tea made from this plant is good for treating coughs and congestion from colds, asthma, and fever.</description>
+        </inhabitant>
+    </region>
+
+    /*3*/
+	https://www.flickr.com/photos/traveloriented/14493319650/in/photolist-o5J3Zy-onceZm-DV9XTn-o4rHVB-omiqov-okoLAS-6E8urr-o5673b-okTxk5-ookMfM-o4qS79-5izfuX-on1JJu-o4qQMA-oke9vA-om9H8H-o566AQ-TLdzLg-Bcdiyg-okHHRN-ohmVoN-o5JbXM-omWrjV-o5JchV-o3VTxq-G1CUi5-o73W9A-FvtpoB-o568Fv-oowddb-ooxHse-7WRdGW-oowf6Q-dNkdyE-ohd4tZ-oUMnMV-Fvtoen-q4SfPf-u9oFT2-q6WZ7F-paatxo-q6WYYp-dpUcP5-q6XfrD-paasiE-paasM5-pPBsDW-q6WZGP-paasGf-q6MhQc
+    <region id="ecoRegion3" label="Coastal Forests" labelWidthBox="200" xpos="60"
+        ypos="252" path="images/ecosystems/scene03_bg.png" isTextOutside="true">
+        <description>In the summers this area is warm, wet, and humid. Winters are generally cool and dry.</description>
+        <inhabitant id="3a" orientation="left" xpos="516" ypos="0" width="112" height="225">
+            <label>Mochi Tree <i>(Ilex integra)</i></label>
+            <description>A member of the holly family, the young leaves of this tree can be cooked and eaten, although the fruits and seeds can be toxic.</description>
+        </inhabitant>
+      
+        <inhabitant id="3c" orientation="right" xpos="158" ypos="0" width="129" height="149">
+            <label>Eurasian Curlew <i>(Numenius arquata)</i></label>
+            <description>This large wading bird feeds on small invertebrates, crabs, or earthworms found in mudflats. It is categorized as Near Threatened.</description>
+        </inhabitant>
+        <inhabitant id="3d" orientation="right" xpos="11" ypos="13" width="170" height="251">
+            <label>Hooded Crane <i>(Grus monacha)</i></label>
+            <description>This crane spends winters in South Korea. It is categorized as Vulnerable because of degradation of the wetland bogs where the birds feed and nest.</description>
+        </inhabitant>
+        <inhabitant id="3e" orientation="left" xpos="439" ypos="194" width="126" height="139">
+            <label>Wild Boar <i>(Sus scrofa)</i></label>
+            <description>Dangerous and aggressive when threatened, this wild boar can weigh as much as 90 kg (200 lbs).</description>
+        </inhabitant>
+        <inhabitant id="3f" orientation="left" xpos="365" ypos="0" width="198" height="147">
+            <label>Japanese Camellia <i>(Camellia japonica)</i></label>
+            <description>Tea oil from this flowering shrub is used as a sweet seasoning and cooking oil. The large red, pink, or white flowers are highly prized.</description>
+        </inhabitant>
+        <inhabitant id="3g" orientation="right" xpos="200" ypos="0" width="170" height="87">
+            <label>Camphor Tree <i>(Cinnamomum camphora)</i></label>
+            <description>This large flowering tree produces a compound called camphor, which can be used as a cooking spice or an insect repellent. It also repels fleas.</description>
+        </inhabitant>
+    </region>
+</eco_data>

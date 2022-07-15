@@ -1,0 +1,348 @@
+@charset "UTF-8";
+
+/*
+Stylesheet for Countries in Perspective - Ecosystems
+Originally Created March, 2012
+DLIFLC - Technology Integratioin Division
+*/
+#ecosysCountryName {
+	position:absolute;
+	display: none;
+	z-index:10;
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000;
+	font-weight:bold;
+}
+#ecosystemsHTML5
+{
+	position:relative;
+	margin:0px auto 0px auto;
+	width:650px;
+	height:400px;
+	background-image:url(../images/ui/interactiveFrame.png);
+	background-repeat:no-repeat;
+	background-color: #333;
+
+}
+#ecosysDivRegion{
+	position:absolute;
+	left:13px;
+	top:48px;;
+	width:624px;
+	height:340px;
+	display:none;
+	overflow:hidden;
+}
+#transparentPopUp {
+	margin:0px;
+	padding:0px;
+	width:650px;
+	height:400px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index:5000;
+	display:none;
+	/* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(192,192,192);
+	/* RGBa with 0.6 opacity */
+	background:rgba(123,123,123, 0.3); 
+
+}
+#loadingImage {
+position:absolute;
+	left:275px;
+	top:150px;;
+	width:100px;
+	height:100px;
+}
+#loadingText {
+position:absolute;
+	left:125px;
+	top:100px;;
+	width:400px;
+	height:100px;
+	font-size:14px;
+	color:#FFF;
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bold;
+}
+
+#ecoContent
+{
+	position:absolute;
+	left:13px;
+	top:48px;
+	width:624px;
+	height:340px;
+	background-image:url(../images/ecosystems/eco_map_bg.png);
+	background-repeat:no-repeat;
+	overflow:hidden;
+	
+}
+#ecosysDivSVG
+{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:624px;
+	height:340px;
+	z-index:100;
+}
+
+#ecosysDivSVG1 {
+	position:absolute;
+	z-index:8;
+}
+#ecosysDivRegionText {
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	color:#000;
+	
+}
+ .ecosysRegionText {
+	 position:absolute;
+	 z-index:80;
+    font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	color:#fff;
+	text-shadow: 0px 1px 2px #444;
+	font-weight:bold;
+}
+
+#ecosysInstrDivText{
+	position:absolute;
+	text-align: right;
+	right: 15px;
+	top:0px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	color: #eee;
+}
+
+#ecosysInstrDivText:hover, #ecosysInstrDivText:focus {
+	cursor: pointer;
+	cursor: hand;
+	color: #f00;
+}
+
+
+.ecosysRegionInhabitant {
+	position:absolute;
+	margin:0px;
+	padding:0px;
+	/*background:rgba(240,0,240,0.6); */
+	cursor: hand;
+	cursor: pointer;
+	transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+
+}
+
+.ecosysRegionInhabitant:hover, .ecosysRegionInhabitant:focus, .ecosysRegionInhabitant:active {
+	box-shadow: 0px 0px 5px rgba(255,255,255,0.5);
+	background: rgba(255,255,255,0.1);
+	border-radius: 20px;
+}
+
+#regionHighlights
+{
+	position:absolute;
+	z-index:3000;
+}
+
+#ecoMapOverlay {
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:80;
+}
+
+#ecosysHeader {
+
+	color: #eee;
+	line-height: 40px;
+}
+
+.ecosysTitle
+{
+	position:absolute;
+	left:20px;
+	top:12px;
+	width:180px;
+	height:21px;
+	background-repeat:no-repeat;
+}
+
+#headerTitle {
+	
+	/*position:absolute;*/
+	margin-left:12px;
+	top:0px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	color: #fff;
+
+}
+
+#ecosysSubtitle
+{
+	/*position:absolute;
+	left:235px;
+	top:12px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;*/
+	color: #fcfcc8;
+
+}
+
+.instructionsText
+{
+	position:absolute;
+	left:570px;
+	top:28px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+}
+
+#ecosysReturnText
+{
+	position:absolute;
+	text-align:right;
+	right:15px;
+	top:0px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+}
+
+#ecosysReturnText:hover, #ecosysReturnText:active {
+	color: #f00;
+} 
+
+#ecosysInstructionsBox
+{
+	position:absolute;
+	padding: 10px;
+	width:250px;
+	min-height:100px;
+	top: 130px;
+	left: 190px;
+	background-color:#fff;
+	opacity:.9;
+	-moz-box-shadow: 0px 3px 2px #444;
+	-webkit-box-shadow: 0px 3px 2px #444;
+     box-shadow: 0px 3px 2px #444; 
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	z-index:200;
+	cursor: hand;
+	cursor: pointer;
+}
+
+#ecosysInstructionsTitle
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	text-align:left;
+
+}
+
+#ecosysInstructionsContent
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	text-align:left;
+}
+
+#ecosysCloseX
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	position:absolute;
+	right:-12px;	
+	top:-12px;
+	background: #ddd;
+	border-radius: 30px;
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	box-shadow: 0px 1px 1px #000;
+	padding:0px;
+	text-align: center;
+}
+
+
+
+
+#tooltip
+{
+	position: absolute;
+	z-index: 3000;
+	margin:0px;
+	padding:1px 5px 2px 5px;
+	display:inline;
+	background-color:#f2f5ec;
+	opacity:.9;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius:2px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:10px;	
+}
+#tooltip h3, #tooltip div { margin: 0; padding:1px 5px 2px 5px; }
+
+#descriptionBox
+{
+	position: absolute;
+	top:360px; 
+	left:12px;
+	width:600px; 
+	height:60px;
+	z-index:400;
+	background-color:#f2f5ec;
+	opacity:.9;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	text-align:left;
+}
+
+#ecosysRegionInhabitantBottom{
+	position:absolute;
+	z-index:200;
+	left:50px;
+	width:500px;
+	display:none;
+	padding:0px 15px 0px 15px;
+	background-color:#f2f5ec;
+	opacity:.9;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius:2px;
+	
+}
+
+#ecosysDivregionPopup {
+	
+	position:absolute;
+	z-index:200;
+	left:50px;
+	width:500px;
+	display:none;
+	padding:0px 15px 0px 15px;
+	background-color:#f2f5ec;
+	opacity:.9;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius:2px;
+}
